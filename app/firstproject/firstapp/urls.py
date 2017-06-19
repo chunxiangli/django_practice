@@ -11,8 +11,6 @@ urlpatterns = [
 
     #functions
     url(r'^add/?$', views.add, name='add'),
-    #url(r'^multiply/?$', views.multiply, name='multiply'),
-    #url(r'^divide/?$', views.divide, name='divide'),
     url(r'^hello_world/$', views.hello_world, name='hello_world'),
 ]
 urlpatterns = format_suffix_patterns(urlpatterns)
